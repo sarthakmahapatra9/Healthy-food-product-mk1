@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_contact_us"
+    tools:context="com.serverphone.healthyfoods.ContactUs"
+    style="bold">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/dabba"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        />
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        card_view:cardElevation="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#BDBDBD"
+
+        card_view:cardCornerRadius="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+        android:id="@+id/card_view1"
+        card_view:cardElevation="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#E0E0E0"
+        card_view:cardCornerRadius="6dp"
+        android:layout_below="@+id/imageView4"
+        android:paddingRight="12dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp">
+
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_contactus"
+                android:layout_below="@+id/button16"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t\t\t\t\t+91 6742595520"
+                android:textColor="#1A237E"
+                android:textSize="24dp"
+                android:autoLink="phone"
+                android:layout_marginRight="2dp"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        card_view:cardElevation="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#E0E0E0"
+
+        card_view:cardCornerRadius="6dp"
+        android:layout_below="@+id/card_view1"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_contactus"
+                android:layout_below="@+id/button16"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t\t\t\t\t+91 6742599594"
+                android:textColor="#1A237E"
+                android:textSize="24dp"
+                android:autoLink="phone"
+                android:layout_marginRight="2dp"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view3"
+        card_view:cardElevation="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#E0E0E0"
+
+        card_view:cardCornerRadius="6dp"
+        android:layout_below="@+id/card_view2"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_contactus"
+                android:layout_below="@+id/button16"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t\t\t\t\t+91 7077714779"
+                android:textColor="#1A237E"
+                android:textSize="24dp"
+                android:autoLink="phone"
+                android:layout_marginRight="2dp"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view4"
+        card_view:cardElevation="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#E0E0E0"
+
+        card_view:cardCornerRadius="6dp"
+        android:layout_below="@+id/card_view3"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_contactus"
+                android:layout_below="@+id/button16"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\t\t\t\t\t\t\t+91 7077714780"
+                android:textColor="#1A237E"
+                android:textSize="24dp"
+                android:autoLink="phone"
+                android:layout_marginRight="2dp"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Order Offline"
+        android:id="@+id/textView14"
+        android:textColor="#1B5E20"
+        android:textSize="32dp"
+        android:layout_above="@+id/card_view"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

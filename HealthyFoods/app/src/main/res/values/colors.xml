@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43A047</color>
+    <color name="colorPrimaryDark">#2E7D32</color><!--#303F9F-->
+    <color name="colorAccent">#2E7D32</color><!--#FF4081-->
+    <color name="selected">#311B92</color>
+    <color name="unselected">#5C6BC0</color>
+    <color name="buttonNormal">#43A047</color>
+    <color name="butttonRaised">#2E7D32</color>
+    <color name="dialogButtons">#2E7D32</color>
+</resources>
